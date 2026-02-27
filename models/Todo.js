@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+// main content is in this file
 const todoSchema = new mongoose.Schema(
     {
         title:{
@@ -24,6 +25,6 @@ const todoSchema = new mongoose.Schema(
         }
     }
 );
-
 // description of data is called schema
+
 module.exports = mongoose.model("Todo", todoSchema);
