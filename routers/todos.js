@@ -11,6 +11,7 @@ const {deleteTodo} = require("../controllers/deleteTodo");
 
 //define api routes
 // controller se mapping karna
+// yaha ham pass kar rha ha ki ya sab schema ha jo aapna backend ma use hoga
 router.post("/createTodo", createTodo);
 router.get("/getTodo",getTodo);
 router.put("/updateTodo/:id",updateTodo);
