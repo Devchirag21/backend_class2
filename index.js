@@ -28,5 +28,5 @@ dbConnect();
 //default Route it's all depend on you to create it or not 
 //do practice
 app.get("/", (req,res) => {
-    res.send(`<h1> this is HomePage baby`);
+    res.send(`<h1> This is HomePage Baby`);
 })
